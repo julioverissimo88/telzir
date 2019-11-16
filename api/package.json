@@ -1,0 +1,20 @@
+{
+  "name": "telzir",
+  "version": "1.0.0",
+  "description": "Desafio Telzir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Telzir",
+    "Vizir",
+    "FrontEnd",
+    "Backend",
+    "Telefonia",
+    "React",
+    "Node"
+  ],
+  "author": "Julio Verissimo",
+  "license": "ISC"
+}
