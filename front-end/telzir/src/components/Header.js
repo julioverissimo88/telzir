@@ -6,7 +6,7 @@ export default class Header extends Component {
     render() {
         return (
             <Navbar bg="dark" variant="dark" className="bar-center">
-                <Navbar.Brand href="#home"><img src={logo} /></Navbar.Brand>
+                <Navbar.Brand href="#home"><img src={logo} alt="Telzir" /></Navbar.Brand>
             </Navbar>
         )
     }

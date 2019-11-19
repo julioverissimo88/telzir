@@ -37,3 +37,29 @@ exports.calcula = async (req, res) => {
     }
 }
 
+/** Retorna Planos */
+exports.planos = async (req, res) => {
+    try {
+        let arrayPlanos = [{ plano: 30, nome:'Fale Mais 30' }, { plano: 60, nome:'Fale Mais 60' }, { plano: 120, nome:'Fale Mais 120' }];
+
+        return res.json(arrayPlanos);
+    }
+    catch (error) {
+        return res.status(400).send({ message: 'Erro ao buscar valor de plano' });
+    }
+}
+
+/** Retorna Localidades */
+exports.localidades = async (req, res) => {
+    try {
+        let arrayLocalidades = [{ local: 11 }, { local: 16 }, { local: 17 },  { local: 18 }];
+
+        return res.json(arrayLocalidades);
+    }
+    catch (error) {
+        return res.status(400).send({ message: 'Erro ao buscar valor de plano' });
+    }
+}
+
+
+
