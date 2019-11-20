@@ -39,7 +39,6 @@ export default class FormCalculo extends Component {
         }
         else {
             e.preventDefault();
-            console.log('passou aqui', 'destinoselecionado', this.state.destinoSelecionado, 'origemSelecionada', this.state.origemSelecionada, 'plano', this.state.planoSelecionado, 'duracao', this.state.duracao);
             const resultado = await axios.post(`${config.API_URL}calcula/`, {
                 "origem": this.state.origemSelecionada,
                 "destino": this.state.destinoSelecionado,
@@ -63,7 +62,6 @@ export default class FormCalculo extends Component {
 
     /** Modifica o estado a partir do combo de planos */
     planosChange = (event) => {
-        console.log('event.target', JSON.parse(event.target.value))
         this.setState({ planoSelecionado: JSON.parse(event.target.value) });
     }
 

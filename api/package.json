@@ -4,7 +4,7 @@
   "description": "Desafio Telzir",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test/index.js",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
@@ -26,6 +26,9 @@
   "devDependencies": {
     "eslint": "^6.6.0",
     "nodemon": "^1.19.4",
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "supertest": "^4.0.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
   }
 }

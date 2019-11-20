@@ -21,4 +21,4 @@ app.use(function (req, res, next) {
 require('./routes/telzir.route')(app);
 
 /** Executa servidor Express na porta configurada */
-app.listen(port, () => { console.log('listen in port: ', port) });
+module.exports = app.listen(port, () => { console.log('listen in port: ', port) });
