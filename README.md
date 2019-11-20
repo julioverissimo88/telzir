@@ -1,4 +1,4 @@
-#Desafio Telzir
+# Desafio Telzir
 
 A empresa de telefonia Telzir, especializada em chamadas de longa distância nacional, vai
 colocar um novo produto no mercado chamado FaleMais.
@@ -6,11 +6,11 @@ Normalmente um cliente Telzir pode fazer uma chamada de uma cidade para outra pa
 uma tarifa fixa por minuto, com o preço sendo pré-definido em uma lista com os códigos DDDs...
 
 ------------
-###Solução
+### Solução
 
 Asolução para o Desafio foi criada utilizando JavaScript (Node, React) pela simplicidade e agilidade de desenvolvimento. Abaixo seguem os passos e mais detalhes para a execução da ferramenta.
 
-###Instalando
+### Instalando
 Obs.: É necessário antes de instalar este projeto, ter instalado e rodando node.js:
 homologado nas seguintes versões:
 
@@ -25,7 +25,7 @@ Para instalá-lo em sua máquina execute os seguintes comandos:
   git clone https://github.com/julioverissimo88/telzir.git
   cd telzir
   
-###Baixando dependências
+### Baixando dependências
 acesse a pasta **backend** e execute o comando:
 
     cd backend
@@ -34,7 +34,7 @@ acesse a pasta **backend** e execute o comando:
 
 Após feito isso o backend deve estar disponível  em: http://localhost:8080
 
-###Executando o projeto
+### Executando o projeto
 Após executar o camando na pasta backend  faça o mesmo para **frontend**:
 
     cd frontend
@@ -44,14 +44,14 @@ Após executar o camando na pasta backend  faça o mesmo para **frontend**:
 
 Após feito isso o frontend deve estar disponível  em: http://localhost:3000
 
-###Testes
+### Testes
 No backend existe uma pasta **tests** onde se encontram os testes de integração da API
 
 Para executá-los os testes basta executar o comando:
 
 **npm test**
 
-###Backend Ferramentas e Bibliotecas
+### Backend Ferramentas e Bibliotecas
 **- Padrão de Código**
  - ESLint
  - Prettier
@@ -62,16 +62,16 @@ Para executá-los os testes basta executar o comando:
 ** Utilitários**
   - Nodemon -Cors
 
-###Teste da Aplicação
+### Teste da Aplicação
  -Supertest
 
 **Backend**
 -Node.js -Express
 
-###Frontend
+### Frontend
 - ReactJS, react-bootstrap, axios, sweetalert
 
-###Aplicação
+### Aplicação
 Prints da aplicação
 
 **Teste Insomnia**
