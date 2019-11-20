@@ -1,3 +1,15 @@
+#Desafio Telzir
+
+A empresa de telefonia Telzir, especializada em chamadas de longa distância nacional, vai
+colocar um novo produto no mercado chamado FaleMais.
+Normalmente um cliente Telzir pode fazer uma chamada de uma cidade para outra pagando
+uma tarifa fixa por minuto, com o preço sendo pré-definido em uma lista com os códigos DDDs...
+
+------------
+###Solução
+
+Asolução para o Desafio foi criada utilizando JavaScript (Node, React) pela simplicidade e agilidade de desenvolvimento. Abaixo seguem os passos e mais detalhes para a execução da ferramenta.
+
 ###Instalando
 Obs.: É necessário antes de instalar este projeto, ter instalado e rodando node.js:
 homologado nas seguintes versões:
@@ -37,6 +49,7 @@ No backend existe uma pasta **tests** onde se encontram os testes de integraçã
 
 Para executá-los os testes basta executar o comando:
 
+**npm test**
 
 ###Backend Ferramentas e Bibliotecas
 **- Padrão de Código**
@@ -45,25 +58,30 @@ Para executá-los os testes basta executar o comando:
  
 ** Gerenciando variáveis ambiente**
   - Dotenv
- 
-**Documentação da API**
-  - Swagger
- 
+  
 ** Utilitários**
   - Nodemon -Cors
 
 ###Teste da Aplicação
--Jest -Supertest
+ -Supertest
 
 **Backend**
 -Node.js -Express
 
 ###Frontend
-- ReactJS 
+- ReactJS, react-bootstrap, axios, sweetalert
 
 ###Aplicação
 Prints da aplicação
 
 **Teste Insomnia**
 
+https://imgur.com/RHEhaTY
+https://imgur.com/oOdlpN9
+https://imgur.com/DXYFNq0
+
+[![](https://imgur.com/RHEhaTY)](https://imgur.com/RHEhaTY)
+
+**Aplicação**
+https://imgur.com/5td3VZl
 
